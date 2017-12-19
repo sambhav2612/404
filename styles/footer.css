@@ -1,0 +1,33 @@
+.bottomHeader {
+    background: #EFEFEF;
+    max-width: 100%;    
+}
+.footer p{
+    text-align: center;
+    color: #000;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+.fa-heart {
+    color: red
+}
+.fa-font-awesome, .fa-code {
+    color: #000;
+}
+.fa-telegram {
+    color: #0088CC;
+}
+.fa-facebook-square {
+    color: #3B5998
+}
+.fa-twitter-square {
+    color: #1DA1F2;
+}
+.fa-linkedin {
+    color: #0077B5;
+}
+#github-logo {
+    margin-bottom: -9px;
+    max-width: 5.5%;
+}

@@ -1,0 +1,19 @@
+.page {
+    text-align: center;
+    font-family: 'Cabin', 'Open Sans', sans-serif;
+}
+.page .footer {
+    max-width: 100%;
+} 
+.page404 {    
+    margin: auto;
+    margin-top: 20px;
+    font-size: 100pt;
+}
+.page404 .fa-smile {
+    color: #0088CC;
+}
+.page404p {
+    margin-bottom: 130pt;
+    font-size: 22pt;
+}
