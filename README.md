@@ -9,5 +9,5 @@ $ xdg-open index.html
 ```
 
 #### Screenshots
-<img src="styles/images/ss1.png" alt="Before Hover Screenshot">
-<img src="atyles/images/ss2.png" alt="After Hover Screendhot">
+<img align="center" src="styles/images/ss1.png" alt="Before Hover Screenshot">
+<img align="center" src="styles/images/ss2.png" alt="After Hover Screendhot">
