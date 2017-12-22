@@ -8,7 +8,7 @@ $ cd 404
 $ xdg-open index.html 
 ```
 
-#### Screenshots
+#### Screenshots:
 ##### Before Hover Screenshot
 <img align="center" src="styles/images/ss1.png" alt="Before Hover Screenshot">
 
