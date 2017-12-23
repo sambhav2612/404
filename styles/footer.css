@@ -31,3 +31,17 @@
     margin-bottom: -9px;
     width: 5.5%;
 }
+@media screen and (max-width: 600px) and (min-width: 0px) {
+    .footer p{
+        text-align: center;
+        color: #000;
+        display: block;
+        margin: auto;
+        padding: 10px;
+        font-size: 50%;
+    }
+    #github-logo {
+        margin-bottom: -4px;
+        width: 11%;
+    }
+}

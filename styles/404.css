@@ -13,9 +13,22 @@
 .page404 .fa-smile {
     color: #0088CC;
 }
-.page404p {
-    margin-bottom: 185pt;
+.page404p, .emptyOne {
+    margin-bottom: 18%;
     font-size: 150%;
+}
+#brlcad {
+    max-width: 300px;
+    max-height: 300px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.emptyOne {
+    margin-top: 10%;
+    margin-bottom: 12%;
+    display: none;
 }
 .flip .page404 {    
     margin: auto;
@@ -30,8 +43,6 @@
 }
 .flip {
     perspective: 1000px;
-    align-content: center;
-    text-align: center;
     margin: auto;
     top: 0;
     left: 0;
@@ -40,8 +51,15 @@
 }
 	/* flip the pane when hovered */
 	.flip:hover .flipper, .flip.hover .flipper {
-		transform: rotateY(180deg);
-	}
+        transform: rotateY(180deg);
+        height: 300px;
+    }
+    .flip:hover ~ .page404p {
+        display: none;
+    }
+    .flip:hover ~ .emptyOne {
+        display: block;
+    }
 
 .flip, .front, .back {
 	width: 400px;
@@ -71,4 +89,27 @@
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 600px) and (min-width: 0px) {
+    h1 {
+        font-size: 10px;
+    }
+    .page404 {
+        margin: auto;
+        margin-top: 20px;
+        font-size: 100%;
+    }
+    #brlcad {
+        max-width: 150px;
+        max-height: 150px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .page404p, .emptyOne {
+        margin-bottom: 18%;
+        font-size: 75%;
+    }
 }
