@@ -8,6 +8,8 @@ $ cd 404
 $ xdg-open index.html 
 ```
 
+**NOTE:** The front and back content can be changed easily with a little change in the page styling.
+
 #### Screenshots:
 ##### Before Hover Screenshot
 <img align="center" src="styles/images/ss1.png" alt="Before Hover Screenshot">
